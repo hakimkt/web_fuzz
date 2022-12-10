@@ -12,3 +12,8 @@ encoder
 python3 encoder.py "Write-Output 'Hello World!'"
 
 
+CertUtil -encode "Write-Output 'Hello World!'" encoded_script.txt
+
+
+CertUtil -decode encoded_script.txt decoded_script.txt
+
