@@ -17,3 +17,5 @@ CertUtil -encode "Write-Output 'Hello World!'" encoded_script.txt
 
 CertUtil -decode encoded_script.txt decoded_script.txt
 
+
+CertUtil -encode "C:\Users\[Username]\Desktop\my_file.txt" encoded_file.txt
